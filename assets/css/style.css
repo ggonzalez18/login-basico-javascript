@@ -1,0 +1,45 @@
+.email,
+.password {
+    padding: 3% 5%;
+    border-radius: 10px;
+    border: 1px solid salmon;
+}
+
+.content-inputs {
+    margin: 20px 0px;
+}
+
+.form-btn {
+    padding: 5% 20%;
+    border-radius: 10px;
+    background-color: salmon;
+    border: 1px solid salmon;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.form-btn:hover {
+    background-color: rgb(206, 85, 72);
+    border: 1px solid rgb(206, 85, 72);
+}
+
+.form-content {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    border: 1px solid salmon;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 0px 60px 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.message-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

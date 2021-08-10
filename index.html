@@ -6,25 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-    <div>
-        <h1>Iniciar sesión</h1>
-        <form id="formulario" name="formulario">
-            <div>
-                <label for="email">Email</label>
-                <input class="email" type="email">
-            </div>
-            <div>
-                <label for="password">Contraseña</label>
-                <input class="password" type="password">
-            </div>
-            <button type="submit">Ingresar</button>
-        </form>
-    </div>
-    <div>
+<body onload="cargar()">
+    <section class="form-content">
+        <div>
+            <h1>Iniciar sesión</h1>
+            <form id="formulario" name="formulario">
+                <div class="content-inputs">
+                    <label for="email">Email</label><br>
+                    <input class="email" type="email">
+                </div>
+
+                <div class="content-inputs">
+                    <label for="password">Contraseña</label><br>
+                    <input class="password" type="password">
+                </div>
+
+                <button type="submit" class="form-btn">Ingresar</button>
+
+            </form>
+        </div>
+    </section>
+    <div class="message-content">
         <p class="resultado"></p>
+        <p class="error"></p>
     </div>
     <script src="assets/js/scripts.js"></script>
 
